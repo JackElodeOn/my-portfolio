@@ -14,23 +14,20 @@ const About = () => {
                 </div>
 
                 <p className="text-xl mt-20">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-                    deserunt illum mollitia officiis qui exercitationem perferendis neque
-                    quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-                    iste, totam fugiat recusandae rerum laborum perferendis molestiae
-                    aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-                    ab mollitia voluptatibus, a nostrum eveniet laborum!
+                    Hello there! My name is Xinyu Li. You can call me Jack! I graduated from Washiongton University in St. Louis in May, 2024, with both a Master's and Bachelor's in Computer Science.
+                    I am proficient in C++, Python, React, JavaScript, MySQL, and Unity. I have done an internship at Turing Medical in the summer of 2023,
+                    where I worked as a full stack software engineer and built the company's first customer portal using Golang and MySQL. 
+                    Additionaly, I participated in three research projects with my professors. During these expereinces, I built Raspberry Pi clusters, conducted various testings
+                    with parallel programming, and wrote Python scripts to generate complex mathemathical matrices. I am passionate about software engineering, 
+                    web development, and video game development, and I am seeking job opportunities in these areas.
                 </p>
 
                 <br />
 
                 <p className="text-xl">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-                    pariatur, vel similique sint, nobis aspernatur ut praesentium
-                    explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-                    quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-                    Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-                    magni quo! Eum cupiditate debitis labore.
+                    In my free time, I enjoy watching movies, playing video games, and cooking. I often develop video games with my friends. Ultimately, my goal is to become
+                    a gameplay engineer and make awesome games! I excel at working both independently and in team, and I thrive on tackling challenges and bringing 
+                    innovative ideas to my work. I am a great self-learner with a determined, hard-working spirit.
                 </p>
             </div>
         </div>

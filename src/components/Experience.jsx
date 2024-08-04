@@ -4,59 +4,66 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
-import github from "../assets/github.png";
-import tailwind from "../assets/tailwind.png";
+import golang from "../assets/golang.webp";
+import python from "../assets/python.jpg";
+import cplusplus from "../assets/c++.png";
+import mysql from "../assets/mysql.png";
+import unity from "../assets/unity.webp";
 
 const Experience = () => {
     const techs = [
         {
             id: 1,
+            src: cplusplus,
+            title: "C++",
+            style: "shadow-sky-400",
+        },
+        {
+            id: 2,
+            src: python,
+            title: "Python",
+            style: "shadow-green-400",
+        },
+        {
+            id: 3,
             src: html,
             title: "HTML",
             style: "shadow-orange-500",
         },
         {
-            id: 2,
+            id: 4,
             src: css,
             title: "CSS",
             style: "shadow-blue-500",
         },
         {
-            id: 3,
+            id: 5,
             src: javascript,
             title: "JavaScript",
             style: "shadow-yellow-500",
         },
         {
-            id: 4,
+            id: 6,
             src: reactImage,
             title: "React",
             style: "shadow-blue-600",
         },
         {
-            id: 5,
-            src: tailwind,
-            title: "Tailwind",
-            style: "shadow-sky-400",
-        },
-        {
-            id: 6,
-            src: nextjs,
-            title: "Next JS",
+            id: 7,
+            src: golang,
+            title: "Golang",
             style: "shadow-white",
         },
         {
-            id: 7,
-            src: graphql,
-            title: "GraphQL",
+            id: 8,
+            src: mysql,
+            title: "MySQL",
             style: "shadow-pink-400",
         },
         {
-            id: 8,
-            src: github,
-            title: "GitHub",
+            id: 9,
+            src: unity,
+            title: "Unity",
             style: "shadow-gray-400",
         },
   ];
@@ -69,7 +76,7 @@ const Experience = () => {
             <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
                 <div>
                     <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
-                        Experience
+                        Professional Skills
                     </p>
                     <p className="py-6">These are the technologies I've worked with</p>
                 </div>
