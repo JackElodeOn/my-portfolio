@@ -11,31 +11,37 @@ const Portfolio = () => {
         {
             id: 1,
             src: turingmedical,
-            codeLink: "https://google.com",
+            demoLink: "",
+            codeLink: "",
         },
         {
             id: 2,
             src: getTotheChoppa,
+            demoLink: "https://youtu.be/bMwVmS2Kmnk",
             codeLink: "https://github.com/aarpyy/VG2_FPSGame",
         },
         {
             id: 3,
             src: questToAtlantis,
+            demoLink: "https://yingxu.itch.io/450finalproject",
             codeLink: "https://github.com/YingXu001/CSE_450A_Final_Project",
         },
         {
             id: 4,
             src: reactSmooth,
+            demoLink: "https://google.com",
             codeLink: "https://google.com",
         },
         {
             id: 5,
             src: matroids,
-            codeLink: "https://google.com",
+            demoLink: "",
+            codeLink: "",
         },
         {
             id: 6,
             src: raspberrypi,
+            demoLink: "",
             codeLink: "https://dokuwiki.sewanee.edu/doku.php?id=pdc:surf22",
         },
     ];
@@ -54,7 +60,7 @@ const Portfolio = () => {
                 </div>
 
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-                    {portfolios.map(({ id, src, codeLink }) => (
+                    {portfolios.map(({ id, src, demoLink, codeLink }) => (
                         <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                             <img
                                 src={src}
@@ -62,9 +68,14 @@ const Portfolio = () => {
                                 className="rounded-md duration-200 hover:scale-105"
                             />
                             <div className="flex items-center justify-center">
-                                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                                <a 
+                                    href={demoLink}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                                >
                                     Demo
-                                </button>
+                                </a>
                                 <a
                                     href={codeLink}
                                     target="_blank"
