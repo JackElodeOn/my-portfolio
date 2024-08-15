@@ -3,7 +3,7 @@ import turingmedical from "../assets/portfolio/turingmedical.png";
 import questToAtlantis from "../assets/portfolio/questToAtlantis.png";
 import onlineShopping from "../assets/portfolio/onlineShopping.png";
 import getTotheChoppa from "../assets/portfolio/getTotheChoppa.png";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
+import matroids from "../assets/portfolio/matroids.png";
 import raspberrypi from "../assets/portfolio/raspberrypi.png";
 
 const Portfolio = () => {
@@ -28,15 +28,15 @@ const Portfolio = () => {
         },
         {
             id: 4,
-            src: reactSmooth,
-            demoLink: "https://google.com",
-            codeLink: "https://google.com",
-        },
-        {
-            id: 5,
             src: onlineShopping,
             demoLink: "",
             codeLink: "https://github.com/JackElodeOn/Online-Shopping-System",
+        },
+        {
+            id: 5,
+            src: matroids,
+            demoLink: "",
+            codeLink: "",
         },
         {
             id: 6,
