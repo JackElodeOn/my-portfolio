@@ -1,7 +1,7 @@
 import React from "react";
 import turingmedical from "../assets/portfolio/turingmedical.png";
 import questToAtlantis from "../assets/portfolio/questToAtlantis.png";
-import matroids from "../assets/portfolio/matroids.png";
+import onlineShopping from "../assets/portfolio/onlineShopping.png";
 import getTotheChoppa from "../assets/portfolio/getTotheChoppa.png";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import raspberrypi from "../assets/portfolio/raspberrypi.png";
@@ -34,9 +34,9 @@ const Portfolio = () => {
         },
         {
             id: 5,
-            src: matroids,
+            src: onlineShopping,
             demoLink: "",
-            codeLink: "",
+            codeLink: "https://github.com/JackElodeOn/Online-Shopping-System",
         },
         {
             id: 6,
