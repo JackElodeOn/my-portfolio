@@ -29,7 +29,7 @@ const Portfolio = () => {
         {
             id: 4,
             src: onlineShopping,
-            demoLink: "",
+            demoLink: "http://onlineshopppingsystem.xinyujackli.com/",
             codeLink: "https://github.com/JackElodeOn/Online-Shopping-System",
         },
         {
