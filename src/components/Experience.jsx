@@ -1,5 +1,6 @@
 import React from "react";
 
+import Java from "../assets/java.png";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
@@ -9,6 +10,8 @@ import python from "../assets/python.jpg";
 import cplusplus from "../assets/c++.png";
 import mysql from "../assets/mysql.png";
 import unity from "../assets/unity.webp";
+import aws from "../assets/aws.png";
+import springBoot from "../assets/springBoot.jpg";
 
 const Experience = () => {
     const techs = [
@@ -44,34 +47,53 @@ const Experience = () => {
         },
         {
             id: 6,
+            src: Java,
+            title: "Java",
+            style: "shadow-orange-500",
+        },
+        {
+            id: 7,
             src: reactImage,
             title: "React",
             style: "shadow-blue-600",
         },
         {
-            id: 7,
+            id: 8,
             src: golang,
             title: "Golang",
             style: "shadow-white",
         },
         {
-            id: 8,
+            id: 9,
             src: mysql,
             title: "MySQL",
             style: "shadow-pink-400",
         },
         {
-            id: 9,
+            id: 10,
             src: unity,
             title: "Unity",
             style: "shadow-gray-400",
         },
+        {
+            id: 11,
+            src: aws,
+            title: "AWS",
+            style: "shadow-blue-400",
+        },
+        {
+            id: 12,
+            src: springBoot,
+            title: "Spring Boot",
+            style: "shadow-green-400",
+        },
+        
   ];
 
     return (
         <div
             name="professional skills"
-            className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+            className="bg-gradient-to-b from-gray-800 to-black w-full min-h-screen"
         >
             <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
                 <div>
@@ -81,16 +103,25 @@ const Experience = () => {
                     <p className="py-6">These are the technologies I've worked with</p>
                 </div>
 
-                <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
-                    {techs.map(({ id, src, title, style }) => (
-                        <div
-                            key={id}
-                            className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
-                        >
-                            <img src={src} alt="" className="w-20 mx-auto" />
-                            <p className="mt-4">{title}</p>
-                        </div>
-                    ))}
+                <div className="w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
+                    {techs.map(({ id, src, title, style }) => {
+                        // Define the icon size conditionally based on the id
+                        const iconSize = id === 11 || id === 12 ? 'w-26 h-20' : 'w-20';
+
+                        return (
+                            <div
+                                key={id}
+                                className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
+                            >
+                                <img
+                                    src={src}
+                                    alt=""
+                                    className={`${iconSize} mx-auto`}
+                                />
+                                <p className="mt-4">{title}</p>
+                            </div>
+                        );
+                    })}
                 </div>
             </div>
         </div>

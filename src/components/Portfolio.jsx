@@ -3,7 +3,7 @@ import turingmedical from "../assets/portfolio/turingmedical.png";
 import questToAtlantis from "../assets/portfolio/questToAtlantis.png";
 import onlineShopping from "../assets/portfolio/onlineShopping.png";
 import getTotheChoppa from "../assets/portfolio/getTotheChoppa.png";
-import matroids from "../assets/portfolio/matroids.png";
+import spookNRescue from "../assets/portfolio/spook'nRescue.png";
 import raspberrypi from "../assets/portfolio/raspberrypi.png";
 
 const Portfolio = () => {
@@ -34,9 +34,9 @@ const Portfolio = () => {
         },
         {
             id: 5,
-            src: matroids,
-            demoLink: "",
-            codeLink: "",
+            src: spookNRescue,
+            demoLink: "https://yosenky.itch.io/spook-n-rescue",
+            codeLink: "https://github.com/JackElodeOn/Spook-n-Rescue",
         },
         {
             id: 6,
